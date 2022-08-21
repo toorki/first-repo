@@ -1,0 +1,160 @@
+body{
+    font-family: sans-serif;
+    color: #747474;
+}
+.docplan-header{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+.logo  {
+    width: 268px;
+    height: 68px;
+}
+.intro-logo{
+    align-items: center;
+    width: 40px;
+    height: 39px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro-title{
+    text-align: center;
+}
+.intro-text{
+    display: flex;
+}
+.par{
+    float: left;
+    margin-left: 150px;
+    width: 400px; ;
+    padding: 10px;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 90%;
+}
+.service-card1{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+}
+.service-card2{
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+}
+.service-card3{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+}
+.global{
+    display: flex;
+    justify-content:first baseline;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.gtitle{
+    float: left;
+    width: 280px;
+    height: 110px;
+    padding-right: 20px;
+    color: aqua;
+    
+}
+.partnesr{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.global-intro{
+    background-color: aqua;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.g-intro-title{
+    float: left;
+    font-size: larger;
+    padding: 10px;
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.leads{
+    background-color:lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.app{
+    background-color:lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.patients{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.docs{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.general{
+    padding: 10px;
+    margin: 40px;
+}
+.general-title{
+    color: aquamarine;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.ge-par{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.end{
+    padding: 10px;
+    margin: 40px;
+}
+.end-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.in{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    align-items: center;
+    padding: 10px;
+    background-color: wheat;
+}
